@@ -330,54 +330,63 @@
       </div>
     </div>
 
-    <!-- Tips / Napiwki / Chat -->
-    <div class="tips">
-      <h2>Tips / Napiwki / Chat</h2>
-      <div class="buttons">
-<div class="stripe-buttons">
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1RZTrsQll7zxZmtEYTdeuOoo"
-  publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB"
->
-</stripe-buy-button>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1RZr2dQll7zxZmtEdwEr25sb"
-  publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB"
->
-</stripe-buy-button>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1RZrAqQll7zxZmtENXavsFuA"
-  publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB"
->
-</stripe-buy-button>
-</div>
-<script async src="https://js.stripe.com/v3/buy-button.js"></script>
-<style>
-  .stripe-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
-    font-size: 14px; /* lub 12px, jeśli chcesz jeszcze mniejsze */
-  }
-  .stripe-buttons stripe-buy-button {
-    display: inline-block;
-    width: auto;
-  }
-</style>
-      </div>
+<div class="tips">
+  <h2>Tips / Napiwki / Chat</h2>
+  <div class="buycoffee-button">
+    <a class="btn buycoffee-btn" href="https://buycoffee.to/fitanna" target="_blank">
+     KAWA☕/ COFFEE☕
+    </a>
+  </div>
+  <div class="buttons">
+    <div class="stripe-buttons">
+      <stripe-buy-button
+        buy-button-id="buy_btn_1RZTrsQll7zxZmtEYTdeuOoo"
+        publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB">
+      </stripe-buy-button>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1RZr2dQll7zxZmtEdwEr25sb"
+        publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB">
+      </stripe-buy-button>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1RZrAqQll7zxZmtENXavsFuA"
+        publishable-key="pk_live_51RAWb0Qll7zxZmtEGXz7bal3dFDRNwVvSWUtjrdEWzlQgYOGpegd3SSUrgyqaoOws1zUaMFsZS3qOktozTVOdzzn00Y0FVSLIB">
+      </stripe-buy-button>
     </div>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+    <style>
+      .stripe-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px 0;
+        font-size: 14px;
+      }
+      .stripe-buttons stripe-buy-button {
+        display: inline-block;
+        width: auto;
+      }
+.buycoffee-button {
+  margin: 15px 0;
+  text-align: center;
+}
+.buycoffee-button .buycoffee-btn {
+  background: #ffc05c;
+  color: #111;
+  border: 2px solid #e84c6f;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.buycoffee-button .buycoffee-btn:hover {
+  background: #e8b04c;
+}
+    </style>
+  </div>
+</div>
 
 <!-- Paysafecard Form -->
 <div class="section">
